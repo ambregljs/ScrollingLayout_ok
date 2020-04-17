@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>GENEVIEVE COHN</title>
+		<meta name="description" content="Blueprint: Fixed Background Scrolling Layout" />
+		<meta name="keywords" content="background scrolling, fixed background, background-attachment, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<span>Illustrator Spotlight</span>
+				<h1>GENEVIEVE COHN</h1>
+
+			</header>
+			<div id="cbp-fbscroller" class="cbp-fbscroller">
+				<nav>
+					<a href="#fbsection1" class="cbp-fbcurrent">Section 1</a>
+					<a href="#fbsection2">Section 2</a>
+					<a href="#fbsection3">Section 3</a>
+					<a href="#fbsection4">Section 4</a>
+					<a href="#fbsection5">Section 5</a>
+				</nav>
+				<section id="fbsection1">	<h1><strong>NIGHT WATCH</strong><br>Acrylic on Canvas - 70”x88” - 2018</h1></section>
+
+				<section id="fbsection2">	<h1><strong>YOU CAN'T HAVE IT ALL BUT I'LL SHARE THE SKY</strong><br>Acrylic on Canvas - 46”x64” - 2019</h1></section>
+
+				<section id="fbsection3">	<h1><strong>I'LL MAKE A MOUNTAIN OUT OF YOU YET</strong><br>Acrylic on Canvas - 60”x72” - 2018</h1></section>
+
+				<section id="fbsection4"> <h1>CONTACT ME :)<br>Email: gencohn@gmail.com</h1></section>
+
+				<section id="fbsection5">	<h1><strong>BEND AND NOT TO BREAK</strong><br>Acrylic on Canvas - 20”x24” - 2019</h1></section>
+			</div>
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
+		<script src="js/jquery.easing.min.js"></script>
+		<!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
+		<script src="js/waypoints.min.js"></script>
+		<!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
+		<script src="js/jquery.debouncedresize.js"></script>
+		<script src="js/cbpFixedScrollLayout.min.js"></script>
+		<script>
+			$(function() {
+				cbpFixedScrollLayout.init();
+			});
+		</script>
+	</body>
+</html>
